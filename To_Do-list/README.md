@@ -8,4 +8,4 @@ This is a simple To-Do List web application built using HTML, CSS, and JavaScrip
 <li>Clear completed tasks.</li>
 </ul>
 <h2>Demo</h2>
-You can check out a live demo of the To-Do List project  <a href=" https://thrishikshetty.github.io/To_Do_List/" > Todo List </a> here
+You can check out a live demo of the To-Do List project  <a href= "https://thrishikshetty.github.io/To_Do_List/" > Todo List </a> here
