@@ -7,4 +7,4 @@ The DSA (Data Structures and Application 21CS32) Notes Website List is a simple 
 <li>Lab manual with excepted outcome</li>
 </ul>
 <h2>Demo</h2>
-You can check out a live demo of the To-Do List project<a href="http://thrishikshetty.github.io/dsa-notes/" ></a>DSA NOTES</a> here
+You can check out a live demo of the To-Do List project <a href="http://thrishikshetty.github.io/dsa-notes/" >DSA NOTES</a> here
