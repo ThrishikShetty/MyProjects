@@ -9,4 +9,4 @@ The Rock, Paper, Scissors Game is a simple web-based game built using HTML and C
 <li> Keeps track of the user's score..</li>
 </ul>
 <h2>Demo</h2>
-You can check out a live demo of the To-Do List project  <a href= "https://thrishikshetty.github.io/Stone_Paper_Scissor/" > Todo List </a> here
+You can check out a live demo of the To-Do List project  <a href= "https://thrishikshetty.github.io/Stone_Paper_Scissor/" > Stone Paper Scissor Game </a> here
