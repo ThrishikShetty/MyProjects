@@ -1,0 +1,274 @@
+  @import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+
+*{
+    margin:opx;
+    padding: 0px;
+    font-family: 'Acme', sans-serif;
+}
+
+body{
+    background-color: rgb(255, 252, 244);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.main{
+    margin:40px;
+    width:100%;
+    max-width: 1000px;
+    position: relative;
+    min-height: 1200px;
+    background-color: white;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.leftbox{
+    position: relative;
+    background-color: rgb(169, 134, 239);
+    background-color: rgb(169, 134, 239);
+    padding: 40px;
+}
+.rightbox{
+    position: relative;
+    background-color: #ddbdf5;
+    padding: 40px;
+}
+
+.profile{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    border-bottom: 3px solid black;
+}
+
+.profile h2{
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    justify-content: center;
+}
+.profile h2 span{
+    font-size: 25px;
+    text-transform:none;
+    justify-content: center;
+    font-weight: 500;
+    color: rgb(50, 48, 48);
+}
+
+.projectinfo{
+    padding: 35px;
+    border-bottom: 3px solid black;
+}
+
+.project{
+    display: relative;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    font-weight: 700px;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+
+}
+
+.projectinfo ul li{
+    list-style: none;
+    margin: 10px;
+    cursor: pointer;
+   
+}
+.projectinfo ul li a{
+    color: black;
+    text-decoration: none;
+    list-style: none;
+    cursor: pointer;
+    color: rgb(29, 29, 29);
+   
+}
+#infop{
+    font-size: 16px;
+}
+.contactme{
+    padding: 35px;
+    border-bottom: 3px solid black;
+
+}
+
+.contact{
+    display: relative;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    font-weight: 700px;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+
+}
+.contactme ul{
+    position: relative;
+    color: rgb(29, 29, 29);
+}
+.contactme ul li{
+    list-style: none;
+    margin: 10px;
+    cursor: pointer;
+    
+   
+}
+.contactme ul li a{
+    color: black;
+    text-decoration: none;
+    list-style: none;
+    cursor: pointer;
+    color: rgb(29, 29, 29);
+   
+}
+.icon{
+    display: inline-block;
+    width: 30px;
+    font-size: 25px;
+}
+.info{
+    font-weight: 400;
+    font-size: 15px;
+}
+#info1{
+    font-weight: 400;
+    font-size: 20px;
+}
+#info3{
+    font-weight: 400;
+    font-size: 20px;
+}
+#info4{
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.educationinfo{
+        padding: 35px;
+       
+}
+.education{
+    
+        display: relative;
+        justify-content: center;
+        align-items: center;
+        font-size: 30px;
+        font-weight: 700px;
+        letter-spacing: 1px;
+        margin-bottom: 15px;
+       
+    
+    
+}
+.education span{
+    list-style:decimal;
+    font-size: 20px;
+    color: rgb(58, 55, 55);
+}
+
+
+img {
+    display: relative;
+    height: 263px;
+    border-radius: 50%;
+  }
+
+
+/* rightbox */
+
+.about{
+    margin-bottom: 40px;
+    border-bottom: 3px solid black;
+}
+.aboutme{
+    letter-spacing: 2px;
+    font-size: 35px;
+}
+.about p{
+    font-size: 20px;
+    color: rgb(59, 58, 58);
+}
+
+.skills{
+    margin-bottom: 40px;
+    border-bottom: 3px solid black;
+}
+.techskills
+{
+    letter-spacing: 2px;
+    font-size: 35px;
+}
+
+.skills .box{
+    position: relative;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    justify-content: center;
+    align-items:center ;
+    
+}
+.skills .box h4{
+    font-weight: 800;
+    color: rgb(59, 58, 58);
+}
+.skills .box .percentage{
+   position: relative;
+   width: 100%;
+   height: 10px;
+   background-color: #f0f0f0;
+}
+.skills .box .percentage div{
+    width: 95%;
+   position: absolute;
+   top:0%;
+   left: 0%;
+   height: 100%;
+   background-color: #03a9f4;
+   
+}
+
+.interests{
+    letter-spacing: 1px;
+    font-size: 33px;
+}
+.interest ul{
+display: grid;
+grid-template-columns: repeat(3,1fr);
+}
+.interest ul li {
+list-style: none;
+font-size: 20px;
+color:  rgb(59, 58, 58);
+margin: 10px;
+};
+
+@media(max-width:1000px)
+{
+    .main{
+        margin:10px 10px 10px 10px  ;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .interest ul{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+@media(max-width:600px)
+{
+    .main{
+        margin:10px 10px 10px 10px  ;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .interest ul{
+        grid-template-columns: repeat(1,1fr);
+    }
+}
+
+
