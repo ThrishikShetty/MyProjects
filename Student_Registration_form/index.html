@@ -1,1 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Rigistration Form</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 
+</head>
+<body>
+    <div class="container">
+        <form action="" onsubmit="return false">
+                <h1>STUDENT REGISTRATION FORM</h1>
+
+            <div class="input">
+                <div class="inputfields">
+                    <input type="text" id="name" placeholder="FULL NAME" required><i class='bx bxs-user-rectangle bx-tada' ></i>
+                </div>
+                <div class="inputfields">
+                    <input type="text" id="usn" placeholder="USN" required><i class='bx bxs-id-card bx-tada' ></i>
+                </div>
+            </div>
+            <div class="input">
+                <div class="inputfields">
+                    <input type="text"  id="mail" placeholder="EMAIL" required><i class='bx bxl-gmail bx-tada' ></i>
+                </div>
+                <div class="inputfields">
+                    <input type="text" id="ph" placeholder="PHONE NUMBER" required><i class='bx bxs-phone bx-tada' ></i>
+                </div>
+            </div>
+            <div class="input">
+                <div class="inputfields">
+                    <input type="text" id="branch" placeholder="BRANCH" required><i class='bx bx-git-branch bx-tada' ></i>
+                </div>
+                <div class="inputfields">
+                    <input type="text"    id="sem" placeholder="SEMESTER" required><i class='bx bxs-graduation bx-tada' ></i>
+                </div>
+
+            </div>
+            <label><input type="checkbox" name="check" id="chk" required checked="checked">I here by confirm that above deatils are correct</label>
+            <button type="submit" onclick="Submit()" >REGISTER</button>
+            <button type="reset" class="clrbtn">RESET</button>
+
+            <div class="show">SHOW OR HIDE THE SUBMITTED DATA 
+                <button type="button" id="btn" onclick="hideShow()">Hide or Show </button>
+            </div>
+        </form>
+
+
+   
+        <div id="main" style="overflow-x:auto;" class="storedata">
+        <fieldset>
+            <legend>
+              <h2><u>SUBMITTED DATA </u></h2>
+            </legend>
+        
+            <table  id="table">
+              <tr align="center">
+                <th class="col" align="center">Name</th>
+                <th class="col" align="center">USN</th>
+                <th class="col" align="center" >EMAIL</th>
+                <th class="col" align="center" >PHONENUMBER</th>
+                <th class="col" align="center" >BRANCH</th>
+                <th class="col" align="center" >SEMESTER</th>
+              </tr>
+            </table>
+          </fieldset>
+        </div>
+    <script src="script.js"> </script>
+</body>
+</html>
