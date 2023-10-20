@@ -13,6 +13,6 @@ This is just a beginning from my side to get into the real programming world.</h
   <li> <a href="https://thrishikshetty.github.io/To_Do_List/"> TO-DO List</a> </li>
 
    <li> <a href="https://thrishikshetty.github.io/Stone_Paper_Scissor/">Stone Paper Scissor Game</a> </li>
-   <li> <a href="https://thrishikshetty.github.io/registrationform/">Student Registration Form</a> </li>
+   <li> <a href="https://thrishikshetty.github.io/Registration_Form/">Student Registration Form</a> </li>
   
 </ul>
