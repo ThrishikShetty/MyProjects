@@ -1,0 +1,35 @@
+@media screen and (max-width:550px) {
+    .headship{
+        width:100%;
+    }
+    .input .inputfields{
+        width: 100%;
+        
+    }
+
+ 
+    #navbar .navlinks ul{
+        display: flex;
+        margin-right: 0px;
+        flex-direction: column;
+        
+        
+    }
+
+    #navbar ul li a { 
+        display: flex;
+        flex-direction: column;
+       /* padding: 20px 22px; */
+        border-radius: 20px;   
+        margin-top: 20px;
+        margin-right: 20px;
+        text-decoration: none;
+        color:white; 
+        border: 2px solid white;
+        /* font-family: 'Bree Serif', serif; */
+    }
+
+    
+    
+       
+      }

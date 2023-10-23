@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style1.css">
+    <link rel="stylesheet" href="styleshipform.css">
+    <title>Shopping </title>
+</head>
+<body>
+    <nav id="navbar">
+        <a href="index.html" id="logo" class="logo"><img src="logo.png"  alt="Grocery 24x7" /></a>
+    <div class="navlinks">
+    <ul>
+        <li><a href="shipping-form.html">Shipping Form</a></li>
+        <li><a href="shipping-list.html">Shipping List</a></li>
+    </ul>
+</div>
+</nav>
+<header > 
+    <div class="headship">
+   
+    <form id="shipping-form" onsubmit="return false">
+        <h1 >Shipping Form</h1>
+        <div class="input">
+            <div class="inputfields">
+                
+                <input type="text" id="item-name" required placeholder="ITEM NAME">
+            </div>
+        </div>
+        <div class="input">
+            <div class="inputfields">
+            
+        <input type="number" id="item-weight" required placeholder="ITEM WEIGHT"> 
+            </div>
+        </div>
+        <div class="input">
+            <div class="inputfields">
+                <label  >BOX COLOR:</label>
+                <input type="color" id="box-color" required placeholder="BOX COLOR">
+
+            </div>
+        </div>
+        <div class="input">
+            <div class="inputfields">
+                
+                <label for="shipping-country" class="shipingcountry" >Shipping Country:</label>
+                <select id="shipping-country" required >
+                    <option value="INDIA">INDIA</option>
+                    <option value="Canada">CANADA</option>
+                    <option value="UK">UK </option>
+                    <option value="CHINA">CHINA</option>
+                    <option value="AUSTRALIA">AUSTRALIA</option>
+                    <option value="SOUTH AFRICA">SOUTH AFRICA</option>
+                    <option value="MAXICO">MAXICO</option>
+                    <option value="SRI LANKA">SRILANKA</option>
+                    <option value="NEW ZEALAND">NEWZEALAND</option>
+                    <option value="ITALY">IATLY</option>
+                    </select>
+            </div>
+        </div>
+
+      
+        
+
+        
+
+        <button type="submit">Submit</button>
+    </form>
+
+
+    
+</div>
+</header>
+    <script src="script.js"></script>
+</body>
+</html>
